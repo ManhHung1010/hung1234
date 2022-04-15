@@ -3,10 +3,7 @@
     .hide-on-tablet-mobile {
         display: none;
     }
-    :root {
-    --navbar-height:0px;
-    --header-height:68px;
-    }
+    
     .header__cart-list {
         position: fixed;
         top: var(--header-with-search);
@@ -50,6 +47,10 @@
 
 /* Tablet */
 @media (min-width: 740px) and  (max-width: 1023px) {
+    :root {
+    --navbar-height:0px;
+    --header-height:68px;
+    }
     .hide-on-tablet {
         display: none;
     }
@@ -70,6 +71,10 @@
 }  
 /* Mobile */
 @media (max-width : 739px) {
+    :root {
+    --navbar-height:0px;
+    --header-height:56px;
+    }
     .hide-on-mobile {
         display:none;
     }
