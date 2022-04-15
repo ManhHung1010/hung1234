@@ -166,7 +166,11 @@
     }
     .home-product-item__action {
         margin-right: 0;
-      }  
+      } 
+    .header__sort-bar {
+   
+    padding-left: 0;
+}
         
     
     
