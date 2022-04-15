@@ -156,6 +156,13 @@
     .footer__heading {
         font-size: 1.2rem;
     }
+    .home-product-item__sold {
+        margin-right: 8px;
+    }
+    .home-product-item__rating {
+        margin-left: 8px;
+    }
+        
     
     
 }
