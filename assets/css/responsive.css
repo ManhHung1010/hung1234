@@ -177,6 +177,9 @@
    
     padding-left: 0;
 }
+    .home-product-item__hearted .home-product-item__hearted-reacted {
+        margin-right:8px;
+    }
         
     
     
